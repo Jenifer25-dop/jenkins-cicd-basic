@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/Jenifer25-dop/jenkins-cicd-basic.git'
+                git branch: 'main', url: 'https://github.com/Jenifer25-dop/jenkins-cicd-basic.git'
             }
         }
 
